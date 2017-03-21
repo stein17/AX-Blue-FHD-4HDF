@@ -3658,7 +3658,7 @@ zPosition="1" />
         <convert type="EMCServiceTime">Duration</convert>
         <convert type="EMCClockToText">InMinutes</convert>
       </widget>
-      <widget source="Service" render="AXBlueRunningText" options="movetype=running,startdelay=600,steptime=60,direction=top,startpoint=0,wrap=1,always=0,repeat=2,oneshot=1" position="1260,342" size="627,540" font="Regular;28" backgroundColor="background" foregroundColor="white" transparent="1" halign="left" valign="top">
+      <widget source="Service" render="AXBlueRunningText" options="movetype=running,startdelay=8000,steptime=60,direction=top,startpoint=0,wrap=1,always=0,repeat=2,oneshot=1" position="1260,342" size="627,540" font="Regular;28" backgroundColor="background" foregroundColor="white" transparent="1" halign="left" valign="top">
         <convert type="EMCEventName">FullDescription</convert>
       </widget>
       <widget name="Cover" position="1738,126" size="150,210" alphatest="blend" zPosition="2" />
@@ -4403,9 +4403,9 @@ zPosition="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_tvs.png" position="0,0" zPosition="-20" size="1920,1080" />
 <ePixmap position="18,12" size="116,66" pixmap="AX_Blue_FHD_4HDF/icons/tvspielfilm-hd.png" alphatest="blend" zPosition="1" />
 <widget name="statuslabel" position="22,910" foregroundColor="white" size="313,50" noWrap="1" valign="center" font="Regular; 28" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
-<widget name="mainmenu" position="22,122" size="313,530" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="secondmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="thirdmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="mainmenu" position="8,130" size="340,530" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="secondmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="thirdmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
 <ePixmap position="291,1032" size="60,50" pixmap="AX_Blue_FHD_4HDF/buttons/key_menu.png" transparent="1" alphatest="blend" zPosition="3" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="30,998" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="30,1042" size="35,35" alphatest="blend" />
@@ -4552,9 +4552,9 @@ zPosition="1" />
 <eLabel text="Chefkoch" position="39,25" foregroundColor="bluetitle" size="200,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="1" />  
 <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_tvs.png" position="-2,0" zPosition="-20" size="1920,1080" />
 <widget source="Title" render="Label" position="22,910" foregroundColor="white" size="313,50" noWrap="1" valign="center" font="Regular; 28" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
-<widget name="mainmenu" position="22,122" size="313,530" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="secondmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="thirdmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="mainmenu" position="8,130" size="340,530" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="secondmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="thirdmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
 <eLabel text="Favoriten" position="203,1000" size="120,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
 <eLabel text="Zufall" position="46,1000" size="120,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
 <eLabel text="Suche" position="46,1040" size="120,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
@@ -4839,9 +4839,9 @@ zPosition="1" />
 <eLabel text="Frag Mutti" position="39,25" foregroundColor="bluetitle" size="200,50" noWrap="1" valign="center" font="Regular; 36" backgroundColor="black" halign="left" transparent="1" zPosition="1" />  
 <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_tvs.png" position="0,0" zPosition="-20" size="1920,1080" />
 <widget source="Title" render="Label" position="22,910" foregroundColor="white" size="313,50" noWrap="1" valign="center" font="Regular; 28" backgroundColor="black" halign="left" transparent="1" zPosition="1" />
-<widget name="mainmenu" position="22,122" size="313,530" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="secondmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
-<widget name="thirdmenu" position="22,122" size="313,790" itemHeight="40" selectionPixmap="AX_Blue_FHD_4HDF/colors/000050EF.png" font="Regular;28" scrollbarMode="showNever" zPosition="2" foregroundColor="white" backgroundColor="black" transparent="1" />
+    <widget name="mainmenu" position="8,130" size="340,530" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="secondmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
+    <widget name="thirdmenu" position="8,130" size="340,820" itemHeight="40" font="Regular;34" scrollbarMode="showNever" zPosition="2" halign="center" transparent="1" />
 <eLabel text="Favoriten" position="203,1000" size="120,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
 <eLabel text="Setup" position="46,1000" size="150,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
 <eLabel text="Suche" position="46,1040" size="120,30" zPosition="1" font="Regular;24" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" valign="top" />
@@ -6695,7 +6695,7 @@ zPosition="1" />
 <eLabel position="67,1020" size="240,30" font="Regular;27" halign="left" text="Speichern" transparent="1" zPosition="1" />
 <eLabel position="371,1020" size="240,30" font="Regular;27" halign="left" text="Abbrechen" transparent="1" zPosition="1" />
 </screen>
-  <!-- EmailScreen FHD -->
+ <!-- EmailScreen FHD -->
 <screen name="EmailScreen" position="0,0" size="1920,1080" title="Email" backgroundColor="transparent" flags="wfNoBorder">
 <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1920,1080" />
@@ -6721,10 +6721,10 @@ zPosition="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttonred" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttongreen" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttonyellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttonblue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 </screen>
   <!-- EmailAccountList FHD -->
 <screen name="EmailAccountList" position="0,0" size="1920,1080" title="Accounts list" backgroundColor="transparent" flags="wfNoBorder">
@@ -6737,11 +6737,11 @@ zPosition="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_menu.png" position="950,1010" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+<widget name="buttonred" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttongreen" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttonyellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+
 </screen>
   <!-- EmailConfigOptions FHD -->
 <screen name="EmailConfigOptions" position="0,0" size="1920,1080" title="Email Setup" backgroundColor="transparent" flags="wfNoBorder">
@@ -6753,12 +6753,8 @@ zPosition="1" />
 <widget name="config" position="36,136" size="1200,800" scrollbarMode="showOnDemand" font="Regular;28" itemHeight="40" backgroundColor="background" transparent="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
-<widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttonred" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttongreen" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 </screen>
   <!-- EmailConfigAccount FHD -->
 <screen name="EmailConfigAccount" position="0,0" size="1920,1080" title="Account Setup" backgroundColor="transparent" flags="wfNoBorder">
@@ -6770,11 +6766,822 @@ zPosition="1" />
 <widget name="config" position="36,136" size="1200,800" scrollbarMode="showOnDemand" font="Regular;28" itemHeight="40" backgroundColor="background" transparent="1" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget name="buttonred" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="buttongreen" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+  <!-- E-Panel FHD -->
+ <screen name="ToolsScreen2" position="0,0" size="1920,1080" flags="wfNoBorder" title="Service Tools" backgroundColor="transparent">
+      <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+
+<screen name="ServiceMan" position="0,0" size="1920,1080" flags="wfNoBorder" title="Service Manager" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" itemHeight="45" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (10, 2), size = (900, 40), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 60
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="SwapScreen2" position="0,0" size="1920,1080" flags="wfNoBorder" title="Swap on USB/HDD" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (70, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (80, 29), size = (900, 24), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (150, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 70
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="SwapScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Swap on USB/HDD" backgroundColor="transparent2">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (70, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (80, 29), size = (900, 24), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (150, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 70
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="create_swap" position="center,140" size="925,60" title="Please wait" backgroundColor="background20">
+<widget source="status" render="Label" position="10,5" size="905,44" zPosition="2" font="Regular; 34" halign="center" transparent="2" />
+</screen>
+<screen name="UsbScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Unmount manager" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+	<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+	<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (70, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (80, 29), size = (900, 24), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (150, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 70
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="ScriptScreen3" position="0,0" size="1920,1080" flags="wfNoBorder" title="Script Executer" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget name="list" position="38,135" size="1200,800" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+
+<screen name="NTPScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="NtpTime Updater" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" itemHeight="45" font="Regular;30" name="config" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="update_current_time" position="center,140" size="925,60" title="Please wait">
+<widget source="status" render="Label" position="10,5" size="905,44" zPosition="2" font="Regular; 30" halign="center" transparent="2" />
+</screen>
+<screen name="ManualSetTime" position="0,0" size="1920,1080" flags="wfNoBorder" title="NtpTime Updater" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" itemHeight="45" font="Regular;30" name="config" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="SystemScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="System Tools" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="KernelScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Kernel Modules Manager" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+	<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="lsmodScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Kernel Drivers in Memory" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+	<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="CrashLogScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="View or Remove Crashlog files" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+	<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="LogScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="View Crashlog file" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="text" position="38,135" size="1200,800" itemHeight="45" font="Regular;30" />
+</screen>
+<screen name="get_source" position="0,0" size="1920,1080" flags="wfNoBorder" title="Choice epg.dat source" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" itemHeight="45" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (10, 2), size = (900, 85), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+			],
+	"fonts": [gFont("Regular", 30),gFont("Regular", 30)],
+	"itemHeight": 45
+	}
+			</convert>
+		</widget>
+	</screen>
+
+<screen name="epgdna" position="0,0" size="1920,1080" flags="wfNoBorder" title="" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,600" name="config" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="lastupdate" render="Label" position="38,823" zPosition="2" size="1200,40" font="Regular;30" halign="center" valign="center" backgroundColor="background" foregroundColor="grey" transparent="1" />
+
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_menu.png" position="1177,925" size="60,50" alphatest="on" />
+</screen>
+<screen name="get_epg_dat" position="center,140" size="925,70" title="Please wait">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<widget source="status" render="Label" position="10,5" size="905,44" zPosition="2" font="Regular; 30" halign="center" transparent="2" />
+</screen>
+<screen name="onidMan" position="0,0" size="1920,1080" flags="wfNoBorder" title="blacklist.onid Manager - %s" backgroundColor="transparent">
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+	<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" itemHeight="45" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (10, 2), size = (900, 85), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+			],
+	"fonts": [gFont("Regular", 30),gFont("Regular", 30)],
+	"itemHeight": 45
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="onidManAdd" position="0,0" size="1920,1080" flags="wfNoBorder" title="add onid - %s" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" itemHeight="45" font="Regular;30" name="config" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="CrontabMan" position="0,0" size="1920,1080" flags="wfNoBorder" title="CtronTab Manager - %s" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" itemHeight="45" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (10, 2), size = (900, 85), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+			],
+	"fonts": [gFont("Regular", 30),gFont("Regular", 30)],
+	"itemHeight": 45
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="CrontabManAdd" position="0,0" size="1920,1080" flags="wfNoBorder" title="add tabs - %s" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" name="config" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="Info2Screen" position="0,0" size="1920,1080" flags="wfNoBorder" title="System Info" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="text" position="38,135" size="1200,800" itemHeight="45" font="Regular;30" />
+</screen>
+<screen name="ViewSet" position="0,0" size="1920,1080" flags="wfNoBorder" title="View System Settings (/etc/enigma2/settings)" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+ <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="text" position="38,135" size="1200,800" itemHeight="45" font="Regular;30" />
+</screen>
+<screen name="HostsScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="/etc/hosts editor" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" itemHeight="45" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (10, 2), size = (900, 85), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+			],
+	"fonts": [gFont("Regular", 30),gFont("Regular", 30)],
+	"itemHeight": 45
+	}
+			</convert>
+		</widget>
+	</screen>
+<screen name="AddRecord" position="0,0" size="1920,1080" flags="wfNoBorder" title="add record" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" itemHeight="45" font="Regular;30" name="config" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="System2Screen" position="0,0" size="1920,1080" flags="wfNoBorder" title="System Tools 2" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="DDNSScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Dynamic DNS" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" name="config" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="DropScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="Cache Flush" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+
+<widget position="38,135" size="1200,600" itemHeight="45" font="Regular;30" name="config" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="MemoryLabel" render="Label" position="92,774" size="250,40" font="Regular; 30" halign="right" foregroundColor="darkgrey" />
+<widget source="memTotal" render="Label" position="357,774" zPosition="2" size="750,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+<widget source="bufCache" render="Label" position="358,831" zPosition="2" size="750,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+</screen>
+<screen name="easyPanel2" position="0,0" size="1920,1080" flags="wfNoBorder" title="E-Panel" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="epanelinfo" position="0,0" size="1920,1080" flags="wfNoBorder" title="E-Panel" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1079" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+	<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+	<widget source="CPULabel" render="Label" position="20,145" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="CPU" render="Label" position="410,145" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+	<widget source="MemoryLabel" render="Label" position="20,745" size="280,40" font="Regular; 30" halign="right" foregroundColor="darkgrey" />
+	<widget source="SwapLabel" render="Label" position="20,785" size="280,40" font="Regular; 30" halign="right" foregroundColor="darkgrey" />
+	<widget source="FlashLabel" render="Label" position="20,825" size="280,40" font="Regular; 30" halign="right" foregroundColor="darkgrey" />
+	<widget source="memTotal" render="Label" position="410,745" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="swapTotal" render="Label" position="410,785" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="flashTotal" render="Label" position="410,825" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="installedLabel" render="Label" position="20,305" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="installed" render="Label" position="410,305" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="device" render="Label" position="20,652" zPosition="2" size="990,90" font="Regular; 24" halign="left" valign="top" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="Hardware" render="Label" position="410,105" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="ipLabel" render="Label" position="20,185" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="ipInfo" render="Label" position="410,185" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="macLabel" render="Label" position="20,225" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="macInfo" render="Label" position="410,225" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="Image" render="Label" position="410,265" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="Kernel" render="Label" position="410,345" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="EnigmaVersion" render="Label" position="410,425" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="HardwareLabel" render="Label" position="20,105" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="ImageLabel" render="Label" position="20,265" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="KernelLabel" render="Label" position="20,345" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="EnigmaVersionLabel" render="Label" position="20,425" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="gstreamerLabel" render="Label" position="20,465" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="gstreamer" render="Label" position="410,465" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="pythonLabel" render="Label" position="20,505" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="python" render="Label" position="410,505" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="nim" render="Label" position="20,549" zPosition="2" size="990,100" font="Regular; 24" halign="left" valign="top" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="driver" render="Label" position="410,385" zPosition="2" size="600,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="driverLabel" render="Label" position="20,385" zPosition="2" size="280,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<eLabel position="20,546" size="990,2" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
+	<eLabel position="20,649" size="990,2" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
+	<eLabel position="20,743" size="990,2" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
+	<eLabel position="20,866" size="990,2" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
+	<eLabel position="236,909" size="550,2" backgroundColor="backgroundBlue" foregroundColor="backgroundBlue" />
+	<ePixmap position="20,931" size="180,47" zPosition="1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/epanel/images/2boom.png" alphatest="blend" />
+	<widget source="panelver" render="Label" position="640,868" zPosition="2" size="150,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="plipanel" render="Label" position="235,868" zPosition="2" size="400,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="cardserver" render="Label" position="510,950" zPosition="2" size="350,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="cardserverLabel" render="Label" position="235,950" zPosition="2" size="200,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+	<widget source="softcam" render="Label" position="510,910" zPosition="2" size="350,40" font="Regular; 30" halign="left" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
+	<widget source="softcamLabel" render="Label" position="235,910" zPosition="2" size="200,40" font="Regular; 30" halign="right" valign="center" backgroundColor="background" foregroundColor="darkgrey" transparent="1" />
+</screen>
+<screen name="ConfigExtentions2" position="0,0" size="1920,1080" flags="wfNoBorder" title="E-Panel Menu/Extensionmenu config" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" itemHeight="45" font="Regular;30" name="config" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="IPKToolsScreen2" position="0,0" size="1920,1080" flags="wfNoBorder" title="IPK Tools" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="downfeed" position="0,0" size="1920,1080" flags="wfNoBorder" title="Install extensions from feed" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="DownloadFeed" position="0,0" size="1920,1080" flags="wfNoBorder" title="Download extensions from feed" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="InstallAll4" position="0,0" size="1920,1080" flags="wfNoBorder" title="Press -Info- to update plugin list" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="RemoveIPK" position="0,0" size="1920,1080" flags="wfNoBorder" title="Ipk remove" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+    <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
+    <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+    <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="emuSel5" position="0,0" size="1920,1080" flags="wfNoBorder" title="Select SoftCam or CardServer" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget source="menu" render="Listbox" position="38,135" size="1200,450" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
 <widget name="key_red" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="key_green" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget name="text" position="35,658" size="1200,305" itemHeight="45" font="Regular;30" halign="center" noWrap="1" />
+<widget source="inmemory" render="Label" position="38,606" size="1150,40" itemHeight="45" font="Regular;30" halign="center" noWrap="1" />
+
+
+</screen>
+<screen name="get_epg_data" position="center,140" size="925,70" title="Please wait">
+<widget source="status" render="Label" position="10,5" size="905,44" zPosition="2" font="Regular; 30" halign="center" transparent="2" />
+</screen>
+<screen name="SoftcamPanel2" position="0,0" size="1920,1080" flags="wfNoBorder" title="SoftCam/CardServer Panel" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,800" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 2), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 3), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+</screen>
+<screen name="SoftcamUpd2" position="0,0" size="1920,1080" flags="wfNoBorder" title="SoftCam.Key Updater" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" name="config" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+</screen>
+<screen name="uniswitcher" position="0,0" size="1920,1080" flags="wfNoBorder" title="..." backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,2" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="menu" render="Listbox" position="38,135" size="1200,500" scrollbarMode="showOnDemand">
+	<convert type="TemplatedMultiContent">
+	{"template": [
+		MultiContentEntryText(pos = (120, 2), size = (900, 37), font=0, flags = RT_HALIGN_LEFT, text = 0), # index 2 is the Menu Titel
+		MultiContentEntryText(pos = (130, 29), size = (900, 27), font=1, flags = RT_HALIGN_LEFT, text = 1), # index 3 is the Description
+		MultiContentEntryPixmapAlphaTest(pos = (5, 5), size = (100, 40), png = 2), # index 4 is the pixmap
+			],
+	"fonts": [gFont("Regular", 30) ,gFont("Regular", 24)],
+	"itemHeight": 75
+	}
+			</convert>
+		</widget>
+   <widget name="text" position="37,665" size="1200,305" itemHeight="45" font="Regular;30" halign="center" noWrap="1" />
+  
+</screen>
+<screen name="UniConfigScreen" position="0,0" size="1920,1080" flags="wfNoBorder" title="E-Panel Universal Switcher" backgroundColor="transparent">
+    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="1" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/menu/menu_transp_black.png" position="0,0" zPosition="-20" size="1280,1080" />
+<widget source="global.CurrentTime" render="Label" position="550,25" size="600,50" font="Regular; 36" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+<convert type="ClockToText">Format:%a, %d.%m.%Y   %H:%M</convert>
+</widget>
+<widget position="38,135" size="1200,800" name="config" itemHeight="45" font="Regular;30" scrollbarMode="showOnDemand" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_red.png" position="23,1018" size="35,35" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
+<widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
+<widget source="key_green" render="Label" position="370,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
 </screen>
 </skin>

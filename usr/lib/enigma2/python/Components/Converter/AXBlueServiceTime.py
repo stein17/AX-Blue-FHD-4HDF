@@ -9,7 +9,7 @@ from Components.Sources.Clock import Clock
 
 
 class AXBlueServiceTime(Poll, Converter, object):
-TYPE_STARTTIME = 0
+	TYPE_STARTTIME = 0
 	TYPE_ENDTIME = 1
 
 	def __init__(self, type):

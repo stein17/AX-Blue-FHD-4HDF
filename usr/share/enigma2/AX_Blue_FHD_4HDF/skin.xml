@@ -4068,18 +4068,10 @@ progressBarWidth="80"
     <eLabel position="1249,123" size="648,839" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
     <widget name="epg_description" position="30,130" size="1165,820" font="Regular;33" backgroundColor="background" foregroundColor="white" transparent="1" />
     <widget name="channel" position="1248,376" size="650,105" font="Regular;39" halign="center" valign="center" backgroundColor="background" foregroundColor="white" transparent="1" />
-    <eLabel text="Playback Time:" backgroundColor="background" foregroundColor="white" noWrap="1" font="Regular;36" halign="right" position="1278,507" size="300,45" transparent="1" />
-    <widget source="session.CurrentService" render="Label" backgroundColor="background" foregroundColor="white" font="Regular;36" halign="right" position="1574,507" size="120,45" transparent="1">
-      <convert type="AXBlueServiceTime">StartTime</convert>
-    </widget>
     <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
     </widget>
-    <eLabel backgroundColor="background" foregroundColor="white" font="Regular;36" halign="center" position="1692,507" size="45,45" text="-" transparent="1" />
-    <widget source="session.CurrentService" render="Label" backgroundColor="background" foregroundColor="white" font="Regular;36" halign="left" position="1735,507" size="120,45" transparent="1">
-      <convert type="AXBlueServiceTime">EndTime</convert>
-    </widget>
-    <widget source="Service" render="AXBlueXPicon" position="1408,155" size="330,198" zPosition="5" transparent="1" alphatest="blend">
+  <widget source="Service" render="AXBlueXPicon" position="1408,155" size="330,198" zPosition="5" transparent="1" alphatest="blend">
       <convert type="MovieInfo">RecordServiceRef</convert>
     </widget>
 <widget source="session.CurrentService" render="Progress" pixmap="AX_Blue_FHD_4HDF/p_bar_sel.png" position="1340,564" size="473,8" zPosition="1" transparent="1" borderWidth="1" borderColor="foregroundClock">

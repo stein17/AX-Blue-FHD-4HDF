@@ -4054,57 +4054,63 @@ zPosition="1" />
 </widget>
 <widget source="Title" render="Label" position="160,25" size="1200,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
 <ePixmap position="30,10" size="116,66" pixmap="AX_Blue_FHD_4HDF/icons/tvspielfilm-hd.png" alphatest="blend" zPosition="1" />
-<widget name="sender1" position="95,160" size="260,40" font="Regular; 26" halign="right" zPosition="1" backgroundColor="background" />
-<widget name="sender2" position="435,160" size="260,40" font="Regular; 26" halign="right" zPosition="1" backgroundColor="background" />
-<widget name="sender3" position="775,160" size="260,40" font="Regular; 26" halign="right" zPosition="1" backgroundColor="background" />
-<widget name="sender4" position="1115,160" size="260,40" font="Regular; 26" halign="right" zPosition="1" backgroundColor="background" />
-<widget name="sender5" position="1455,160" size="260,40" font="Regular; 26" halign="right" zPosition="1" backgroundColor="background" />
-<widget name="logo1" position="365,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="logo2" position="705,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="logo3" position="1045,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="logo4" position="1385,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="logo5" position="1725,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pic1" position="130,210" size="300,169" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pic2" position="470,210" size="300,169" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pic3" position="810,210" size="300,169" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pic4" position="1150,210" size="300,169" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pic5" position="1490,210" size="300,169" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="pictime1" position="130,385" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="pictime2" position="470,385" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="pictime3" position="810,385" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="pictime4" position="1150,385" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="pictime5" position="1490,385" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="pictext1" position="210,385" size="220,66" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="pictext2" position="550,385" size="220,66" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="pictext3" position="890,385" size="220,66" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="pictext4" position="1230,385" size="220,66" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="pictext5" position="1570,385" size="220,66" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="menu1" position="130,455" size="300,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
-<widget name="menu2" position="470,455" size="300,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
-<widget name="menu3" position="810,455" size="300,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
-<widget name="menu4" position="1150,455" size="300,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
-<widget name="menu5" position="1490,455" size="300,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
+<widget name="sender1" position="88,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="sender2" position="400,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="sender3" position="713,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="sender4" position="1026,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="sender5" position="1339,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="sender6" position="1651,160" size="245,40" font="Regular; 26" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="logo1" position="22,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="logo2" position="334,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="logo3" position="647,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="logo4" position="960,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="logo5" position="1273,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="logo6" position="1585,160" size="66,40" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic1" position="22,201" size="311,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic2" position="334,201" size="312,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic3" position="647,201" size="312,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic4" position="960,201" size="312,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic5" position="1273,201" size="311,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pic6" position="1585,201" size="312,169" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="pictime1" position="22,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictime2" position="334,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictime3" position="647,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictime4" position="960,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictime5" position="1273,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictime6" position="1585,380" size="80,66" font="Regular; 25" valign="top" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="pictext1" position="103,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="pictext2" position="416,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="pictext3" position="728,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="pictext4" position="1042,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="pictext5" position="1354,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="pictext6" position="1667,380" size="230,85" font="Regular; 25" valign="top" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="menu1" position="22,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
+<widget name="menu2" position="334,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
+<widget name="menu3" position="647,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
+<widget name="menu4" position="960,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
+<widget name="menu5" position="1273,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
+<widget name="menu6" position="1585,475" size="311,460" scrollbarMode="showNever" zPosition="1" backgroundColor="background" font="Regular; 20" />
 <widget name="label" position="397,1005" size="1125,70" alphatest="blend" zPosition="2" backgroundColor="background" transparent="1" foregroundColor="orange" font="Regular; 25" halign="center" />
 <widget name="labelpost" position="397,1005" size="1125,70" alphatest="blend" zPosition="2" backgroundColor="background" font="Regular; 25" foregroundColor="orange" halign="center" />
-<widget name="textpage" position="130,600" size="1660,320" font="Regular;28" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="wiki" position="1700,200" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="tvdb" position="1700,260" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="tmdb" position="1700,260" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="imdb" position="1700,320" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="textpage" position="22,600" size="1875,340" font="Regular;28" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="wiki" position="1807,185" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="tvdb" position="1807,275" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="tmdb" position="1807,230" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="imdb" position="1807,320" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
 <widget name="picpost" position="622,140" size="675,450" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="bilderlogo" position="1700,140" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="mehrbilder" position="1380,140" size="300,180" font="Regular;28" foregroundColor="grey" halign="center" zPosition="1" backgroundColor="background" />
-<widget name="infotext" position="130,140" size="300,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="infotext2" position="130,190" size="300,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="infotext3" position="130,240" size="300,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
-<widget name="tvinfo1" position="130,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="tvinfo2" position="235,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="tvinfo3" position="335,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="tvinfo4" position="435,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="reclogo" position="130,340" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="searchmenu" position="130,135" size="1660,780" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
-<widget name="searchlogo" position="130,140" size="300,75" alphatest="blend" zPosition="1" backgroundColor="background" />
-<widget name="searchtext" position="450,140" size="1340,45" font="Regular; 28" valign="center" zPosition="1" backgroundColor="background" foregroundColor="orange" />
+<widget name="bilderlogo" position="1807,140" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="mehrbilder" position="1591,142" size="300,180" font="Regular;28" foregroundColor="grey" halign="center" zPosition="1" backgroundColor="background" />
+<widget name="infotext" position="22,140" size="311,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="infotext2" position="22,190" size="311,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="infotext3" position="22,240" size="311,40" font="Regular; 26" foregroundColor="grey" halign="left" zPosition="1" backgroundColor="background" />
+<widget name="tvinfo1" position="22,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="tvinfo2" position="113,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="tvinfo3" position="204,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="tvinfo4" position="295,285" size="90,33" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="reclogo" position="22,325" size="90,43" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="searchmenu" position="22,139" size="1875,800" scrollbarMode="showNever" zPosition="1" backgroundColor="background" />
+<widget name="searchlogo" position="22,140" size="311,75" alphatest="blend" zPosition="1" backgroundColor="background" />
+<widget name="searchtext" position="22,140" size="1875,45" font="Regular; 28" valign="center" zPosition="1" backgroundColor="background" foregroundColor="orange" />
   </screen>
   <!-- TV Spielfilm Blog -->
 <screen name="TVBlog" position="0,0" size="1920,1080" title="TV Spielfilm Blog" backgroundColor="transparent" flags="wfNoBorder">

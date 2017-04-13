@@ -5527,6 +5527,10 @@ self.instance.move(ePoint((1920-wsizex), (1280-wsizex)/2, (720-wsizey)/(count &g
       <convert type="MenuEntryCompare">nfr4x_boot</convert>
       <convert type="ConditionalShowHide" />
     </widget>
+	<widget source="menu" render="Pixmap" pixmap="AX_Blue_FHD_4HDF/icons/hdf_logo.png" position="971,676" size="256,256">
+      <convert type="MenuEntryCompare">hdf_toolbox</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
   </screen>
   <screen name="menu_timermenu" position="0,0" size="1920,1080" title="Main menu" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />

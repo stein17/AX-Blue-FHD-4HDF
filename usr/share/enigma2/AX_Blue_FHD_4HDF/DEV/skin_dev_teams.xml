@@ -3105,27 +3105,29 @@
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_green.png" position="325,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_yellow.png" position="629,1018" size="35,35" alphatest="blend" />
 <ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_blue.png" position="936,1018" size="35,35" alphatest="blend" />
-<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_info.png" position="1130,611" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
+<ePixmap pixmap="AX_Blue_FHD_4HDF/buttons/key_info.png" position="1207,1013" size="60,50" zPosition="10" transparent="1" alphatest="blend" />
 <widget name="downloadmenu" position="30,130" size="1160,440" itemHeight="40" font="Regular;30" scrollbarMode="showNever" transparent="1" />
 <widget source="description2" render="Label" position="30,620" size="800,40" font="Regular;28" foregroundColor="white" backgroundColor="bluelabel" transparent="0" zPosition="1" />
 <widget source="description" render="Label" position="30,680" size="800,260" font="Regular;28" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="1" />
 <widget source="size2" render="Label" position="595,680" size="120,40" font="Regular;28" foregroundColor="white" halign="right" backgroundColor="background" transparent="1" zPosition="1" />
 <widget source="size" render="Label" position="460,680" size="360,40" font="Regular;28" foregroundColor="yellow" halign="right" backgroundColor="background" transparent="1" zPosition="1" />
 <widget source="introduction" render="Label" position="70,970" size="0,0" font="Regular;21" transparent="1" />
-<ePixmap name="1" position="844,665" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_1.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_1" position="890,667" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="2" position="844,705" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_2.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_2" position="890,707" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="3" position="844,745" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_3.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_3" position="890,747" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="4" position="844,785" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_4.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_4" position="890,787" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="5" position="844,825" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_5.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_5" position="890,827" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="6" position="844,865" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_6.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_6" position="890,867" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
-<ePixmap name="0" position="843,905" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_0.png" transparent="1" alphatest="blend" zPosition="1" />
-<widget name="key_0" position="890,907" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+ <ePixmap name="1" position="844,625" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_1.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_1" position="890,627" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="2" position="844,665" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_2.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_2" position="890,667" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="3" position="844,705" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_3.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_3" position="890,707" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="4" position="844,745" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_4.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_4" position="890,747" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="5" position="844,785" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_5.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_5" position="890,787" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="6" position="844,825" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_6.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_6" position="890,827" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="7" position="844,865" zPosition="1" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_7.png" transparent="1" alphatest="on" />
+  <widget name="key_7" position="890,867" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
+  <ePixmap name="0" position="843,905" size="35,35" pixmap="AX_Blue_FHD_4HDF/buttons/key_0.png" transparent="1" alphatest="blend" zPosition="1" />
+  <widget name="key_0" position="890,907" size="300,30" halign="left" font="Regular;24" foregroundColor="lightblue" backgroundColor="background" transparent="1" zPosition="2" />
 </screen>
 	<!-- HDF Download File FHD  --> 
 <screen name="downloadfile" position="center,center" size="1920,1080" title="Download File" backgroundColor="transparent" flags="wfNoBorder">

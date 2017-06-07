@@ -3360,7 +3360,7 @@
 <convert type="ServiceName">All</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="50,385" size="840,40" transparent="1" zPosition="2" font="Regular;27" foregroundColor="white" valign="top" halign="left" noWrap="1" backgroundColor="background">
-<convert type="ASBlueExtraInfo">CryptoInfo</convert>
+<convert type="AXBlueExtraInfo">CryptoInfo</convert>
 </widget>
 <eLabel font="Regular;27" foregroundColor="white" halign="left" valign="top" position="52,300" size="128,40" text="RES:" zPosition="2" transparent="1" backgroundColor="background" />
 <widget source="session.CurrentService" render="Label" zPosition="2" position="180,300" size="83,40" halign="left" valign="top" font="Regular;27" foregroundColor="white" transparent="1" backgroundColor="background">

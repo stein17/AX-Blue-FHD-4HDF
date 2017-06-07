@@ -2147,28 +2147,28 @@ self.instance.move(ePoint(0,0))
     <widget source="key_yellow" render="Label" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" />
     <widget source="key_blue" render="Label" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" foregroundColor="white" backgroundColor="background" transparent="1" />
   </screen>
-  <!-- TitleCutter FHD-->
-  <screen name="TitleCutter" position="0,0" size="1920,1080" title="Cutlist editor" flags="wfNoBorder" backgroundColor="transparent">
-    <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
-    <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-      <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
-    </widget>
-    <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/Chanel_transp_black.png" position="0,0" zPosition="-20" size="1920,1080" />
-    <eLabel position="1249,123" size="648,839" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
-    <eLabel position="105,195" zPosition="1" size="1050,571" backgroundColor="white" />
-    <eLabel position="108,198" zPosition="3" size="1044,565" backgroundColor="backgroundPig" />
-    <widget name="Video" position="108,198" zPosition="-10" size="1044,565" />
-    <widget source="session.CurrentService" render="Label" position="105,780" size="1050,48" font="Regular;36" halign="center" valign="center" backgroundColor="background" transparent="1">
-      <convert type="ServiceName">Name</convert>
-    </widget>
-    <widget source="session.CurrentService" render="Label" position="105,840" size="1050,37" font="Regular;30" halign="center" valign="center" backgroundColor="background" transparent="1">
-      <convert type="ServicePosition">Position,Detailed</convert>
-    </widget>
-    <widget name="Timeline" position="105,895" size="1050,30" backgroundColor="grey" pointer="skin_default/position_arrow.png:3,5" foregroundColor="trbluelabel" />
-    <eLabel position="1260,195" size="630,660" zPosition="1" backgroundColor="white" />
-    <eLabel position="1263,198" size="624,654" zPosition="2" backgroundColor="background" />
-    <widget source="cutlist" render="Listbox" position="1275,210" size="600,630" zPosition="3" scrollbarMode="showOnDemand">
-      <convert type="TemplatedMultiContent">
+   <!-- CutListEditor FHD-->
+<screen backgroundColor="transparent" flags="wfNoBorder" name="CutListEditor" position="0,0" size="1920,1080" title="Cutlist editor">
+  <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />
+  <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
+    <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
+  </widget>
+  <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/Chanel_transp_black.png" position="0,0" zPosition="-20" size="1920,1080" />
+  <eLabel position="1249,123" size="648,839" backgroundColor="trbluelabel" transparent="0" zPosition="-12" />
+  <eLabel position="101,165" zPosition="1" size="1010,573" backgroundColor="bluelabel" foregroundColor="bluelabel" />
+  <eLabel position="106,170" zPosition="3" size="1000,563" backgroundColor="backgroundPig" />
+  <widget name="Video" position="106,170" zPosition="-10" size="1000,563" />
+  <widget source="session.CurrentService" render="Label" position="85,752" size="1050,48" font="Regular; 40" halign="center" valign="center" backgroundColor="background" transparent="1" foregroundColor="bluetitle">
+    <convert type="ServiceName">Name</convert>
+  </widget>
+  <widget source="session.CurrentService" render="Label" position="295,822" size="850,50" font="Regular; 40" halign="left" valign="center" backgroundColor="background" transparent="1" foregroundColor="green">
+    <convert type="ServicePosition">Position,Detailed</convert>
+  </widget>
+  <widget name="Timeline" position="85,893" size="1050,30" backgroundColor="grey" pointer="AX_Blue_FHD_4HDF/position_arrow.png:3,5" foregroundColor="darkbluelabel" />
+  <eLabel position="1260,195" size="630,660" zPosition="1" backgroundColor="white" />
+  <eLabel position="1263,198" size="624,654" zPosition="2" backgroundColor="background" />
+  <widget source="cutlist" render="Listbox" position="1275,210" size="600,630" zPosition="3" scrollbarMode="showOnDemand">
+    <convert type="TemplatedMultiContent">
 				{"template": [
 						MultiContentEntryText(pos = (0, 6), size = (420, 33), text = 1, flags = RT_HALIGN_CENTER, backcolor = MultiContentTemplateColor(3)),
 						MultiContentEntryText(pos = (420, 6), size = (150, 33), text = 2, flags = RT_HALIGN_CENTER, backcolor = MultiContentTemplateColor(3))
@@ -2177,9 +2177,10 @@ self.instance.move(ePoint(0,0))
 				 "itemHeight": 45
 				}
 			</convert>
-    </widget>
-    <ePixmap pixmap="AX_Blue_FHD_4HDF/mp_buttons.png" position="1379,888" size="450,56" alphatest="blend" />
-  </screen>
+  </widget>
+  <ePixmap pixmap="AX_Blue_FHD_4HDF/mp_buttons.png" position="1379,888" size="450,56" alphatest="blend" />
+  <widget name="SeekState" position="84,822" zPosition="10" size="200,50" halign="right" font="Regular; 40" valign="center" backgroundColor="background" foregroundColor="red" />
+</screen>
   <!-- TitleProperties FHD-->
   <screen name="TitleProperties" position="0,0" size="1920,1080" title="Properties of current title" flags="wfNoBorder" backgroundColor="transparent">
     <widget source="Title" render="Label" position="10,25" size="900,50" font="Regular; 36" halign="left" valign="center" foregroundColor="bluetitle" backgroundColor="black" transparent="1" zPosition="1" />

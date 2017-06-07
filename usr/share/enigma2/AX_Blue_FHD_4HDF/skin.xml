@@ -4245,15 +4245,15 @@
   <widget name="Preview" position="1262,257" size="620,349" alphatest="blend" zPosition="2" />
   <widget source="introduction" render="Label" position="396,1000" size="850,70" font="Regular; 32" foregroundColor="white" halign="left" backgroundColor="background" valign="center" transparent="1" />
   <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
-  <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
+    <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
   </widget>
   <eLabel text="Andern der 1. und 2. Infobar, Kanalliste" position="30,518" size="800,40" zPosition="2" font="Regular; 34" transparent="1" backgroundColor="black" halign="left" foregroundColor="bluetitle" />
   <eLabel position="1248,211" size="649,440" backgroundColor="background" zPosition="1" />
-  <eLabel text="Wetteranzeige in der 2.Infobar" position="30,720" size="600,40" zPosition="2" font="Regular; 34" transparent="1" backgroundColor="black" halign="left" foregroundColor="bluetitle" />
+  <eLabel text="Wetteranzeige in der 2.Infobar" position="30,700" size="600,40" zPosition="2" font="Regular; 34" transparent="1" backgroundColor="black" halign="left" foregroundColor="bluetitle" />
   <eLabel text="Preview" position="1266,129" size="610,70" font="Regular;40" halign="center" valign="center" backgroundColor="bluelabel" transparent="1" zPosition="2" />
   <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/Chanel_transp_black.png" position="0,0" zPosition="-20" size="1920,1080" />
   <eLabel position="1249,123" size="648,838" backgroundColor="bluelabel" transparent="0" zPosition="-12" />
-  <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/line648.png" position="24,760" size="648,2" alphatest="blend" zPosition="6" />
+  <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/line648.png" position="24,740" size="648,2" alphatest="blend" zPosition="6" />
   <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/line648.png" position="29,559" size="649,2" alphatest="blend" zPosition="6" />
   <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/line648.png" position="1249,652" size="648,2" alphatest="blend" zPosition="6" />
   <ePixmap pixmap="AX_Blue_FHD_4HDF/menu/line648.png" position="1247,208" size="649,2" alphatest="blend" zPosition="6" />
@@ -4264,7 +4264,7 @@
   <widget source="key_red" render="Label" position="67,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   <ePixmap position="1305,679" size="256,256" zPosition="2" pixmap="AX_Blue_FHD_4HDF/icons/menu_osd_menu_skin_setup.png" transparent="1" alphatest="blend" />
   <eLabel text="In /usr/share/enigma2/AX_Blue_FHD_4HDF/DEV/ ist eine “Skinparts AX.exe”, diese öffnen. Die jeweilige xml umbenennen in skin.xml und die skin.xml in /usr/share/enigma2/AX_Blue_FHD_4HDF/ ersetzen. Benutzer Oberfläche neustarten" position="25,566" size="1180,110" zPosition="2" font="Regular; 26" transparent="1" backgroundColor="black" halign="left" foregroundColor="foregroundClock" valign="center" />
-  <eLabel text="Menu/Einstellungen/Bedienung und Oberfläche/OSD - 2.Infoleiste Sendungsinformationen ändern in -2.Infoleiste INFO. Von System Plugins laden wir uns den WeatherComponentHandler runter. WeatherComponentHandler/Menu, dann Grün Hinzufügen. Wenn ihr den Ort Eingegeben habt, ein mal runter auf Location-Code. Gelb für Code suchen, mit Grün (OK)bestätigen, wichtig wieder OK. Noch wichtiger mit Rot zurück, sonst müsst ihr wieder von vorne anfangen. Jetzt mit Exit beenden, Benutzer Oberfläche neustarten, eventuell kompletter Neustart." position="25,742" size="1190,240" zPosition="2" font="Regular; 26" transparent="1" backgroundColor="black" halign="left" foregroundColor="foregroundClock" valign="center" />
+  <eLabel text="Menu/Einstellungen/Oberfläche/Benutzeroberfläche Einstellungen  2. Infobar Programmmminformationen ändern in 2nd Infobar INFO. Von System Plugins laden wir uns den WeatherComponentHandler runter. WeatherComponentHandler/Menu, dann Grün Hinzufügen. Wenn ihr den Ort Eingegeben habt, ein mal runter auf Location-Code. Gelb für Code suchen, mit Grün (OK)bestätigen, wichtig wieder OK. Noch wichtiger mit Rot zurück, sonst müsst ihr wieder von vorne anfangen. Jetzt mit Exit beenden, Benutzer Oberfläche neustarten, eventuell kompletter Neustart." position="25,732" size="1170,240" zPosition="2" font="Regular; 26" transparent="1" backgroundColor="black" halign="left" foregroundColor="foregroundClock" valign="center" />
 </screen>
   <!-- User Positioner Interface FHD -->
   <!-- ServiceInfo FHD -->

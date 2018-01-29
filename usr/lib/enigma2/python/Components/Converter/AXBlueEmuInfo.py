@@ -5,9 +5,6 @@ from Tools.Directories import fileExists
 from os import path, popen
 import re
 
-
-
-
 class AXBlueEmuInfo(Converter, object):
     TEMPERATURE = 1
     EMU = 2
@@ -138,8 +135,7 @@ class AXBlueEmuInfo(Converter, object):
                             caID = caID.strip(',;.:-*_<>()[]{}')
                             sysID = self.getCryptName(caID)
                             return sysID
-
-            file.close()
+			file.close()
         else:
             return ''
 
@@ -219,7 +215,7 @@ class AXBlueEmuInfo(Converter, object):
                 else:
                     ecmtime2 = str(int(float(ecmtime) * 1000)) + ' ms'
             if source != '':
-                emun = 'EMU : MgCamd'
+                emun = 'EMU : Wicardd'
                 ecmtime = ecmtime.rstrip('ce')
                 if int(ecmtime.split()[0]) >= 1000:
                     ecmtime2 = str(float(ecmtime.split()[0]) / 1000) + ' s'

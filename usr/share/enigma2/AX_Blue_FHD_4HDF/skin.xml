@@ -1446,7 +1446,7 @@
     <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
   </screen>
   <!-- EPG Selection FHD -->
-  <screen name="EPGSelection" position="0,0" size="1920,1080" title="EPG Selection" backgroundColor="transparent2" flags="wfNoBorder" zPosition="-1">
+  <screen name="EPGSelection" position="0,0" size="1920,1080" title="EPG Selection" backgroundColor="transparent2" flags="wfNoBorder" >
     <widget source="global.CurrentTime" render="Label" position="1188,30" size="600,40" font="Regular; 32" halign="right" foregroundColor="foregroundClock" backgroundColor="black" transparent="1">
       <convert type="ClockToText">Format:%A, %d.%m.%Y   %H:%M</convert>
     </widget>
@@ -1494,8 +1494,6 @@
     <widget name="key_yellow" position="675,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <widget name="key_blue" position="983,1000" size="240,70" zPosition="1" valign="center" font="Regular; 27" halign="left" backgroundColor="black" transparent="1" />
     <ePixmap name="back" position="0,0" size="1920,1080" pixmap="AX_Blue_FHD_4HDF/menu/Chanel.png" zPosition="-10" />
-    <widget name="number" position="170,1900" size="500,60" font="Regular;34" valign="center" halign="left" foregroundColor="lightblue" backgroundColor="transparent" transparent="1" borderColor="black" borderWidth="2" zPosition="2" />
-    <widget name="lab1" position="70,1950" size="150,30" font="Regular;24" foregroundColor="lightblue" backgroundColor="dark" transparent="1" zPosition="2" />
   </screen>
   <!-- GraphMultiEPGList FHD -->
   <screen name="GraphMultiEPGList" title="Electronic Program Guide" flags="wfNoBorder" position="0,0" size="1920,1080" backgroundColor="transparent2">

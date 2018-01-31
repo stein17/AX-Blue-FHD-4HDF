@@ -63,7 +63,7 @@
 	foregroundColorServiceNotAvail="dark" 
   picServiceEventProgressbar="AX_Blue_FHD_4HDF/ch_progress.png"
   colorEventProgressbarBorder="darkgrey" 
-  colorEventProgressbarBorderSelected="darkgrey2"  
+  colorEventProgressbarBorderSelected="bluetitle"  
 	fieldMargins="15" nonplayableMargins="15" itemsDistances="8" progressBarWidth="80" progressPercentWidth="90" progressbarHeight="12" />
     <widget source="ServiceEvent" render="Picon" position="1195,150" size="190,107" zPosition="1" alphatest="blend" transparent="1">
       <convert type="AXBlueRefString">ServicelistRef</convert>

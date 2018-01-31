@@ -404,6 +404,5 @@
     <eLabel text="G" position="276,1031" zPosition="2" size="26,27" font="Regular; 30" halign="center" foregroundColor="darkgrey" backgroundColor="black" transparent="0" valign="center" />
     <eLabel text="H" position="306,1031" zPosition="2" size="26,27" font="Regular; 30" halign="center" foregroundColor="darkgrey" backgroundColor="black" transparent="0" valign="center" />
 
-
 </screen>
 </skin>

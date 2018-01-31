@@ -153,11 +153,11 @@
     </widget>
 	<!--  Picon-->
 	<!--  X-Picon-->
-<!--     <widget source="session.CurrentService" render="BLXPicon" position="50,860" size="270,152" zPosition="4" transparent="0" alphatest="blend">
+<!--     <widget source="session.CurrentService" render="AXBlueXPicon" position="50,860" size="270,152" zPosition="4" transparent="0" alphatest="blend">
     <convert type="ServiceName">Reference</convert>
     </widget> -->
 	<!--  ZZ-Picon-->
-	<widget source="session.CurrentService" render="BLXPicon" position="0,858" size="360,156" zPosition="4" transparent="0" alphatest="blend">
+	<widget source="session.CurrentService" render="AXBlueXPicon" position="0,858" size="360,156" zPosition="4" transparent="0" alphatest="blend">
         <convert type="ServiceName">Reference</convert>
         </widget> 
 	<!--  Caid-->
